@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap");
+.projects-container {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.caption-div {
+  background-color: rgba(0, 0, 0, 0.527);
+  border-radius: 30px;
+  color: #f3f2f2;
+  font-family: 'Stint Ultra Condensed', cursive;
+}
+
+a {
+  margin: 0 5px;
+}
+
+@media (min-width: 785px) {
+  .projects-container {
+    border-radius: 0px;
+    border: 2px solid black;
+  }
+}
+/*# sourceMappingURL=Projects.css.map */

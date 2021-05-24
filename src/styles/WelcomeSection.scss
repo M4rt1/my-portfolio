@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+$main-font:'Oswald', sans-serif;
+
+.welcome-section{
+    position: absolute;
+    display: grid;
+    height:100%;
+    width:100%;
+    background-image: url('../medias/fb-bg.png');
+    background-size: cover;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    grid-template-areas: 
+    'photo info'
+    'photo info';
+    @media (max-width:600px) {
+        grid-template-areas:
+        'photo photo'
+        'info info';
+    }
+}
+
+.photo{
+    grid-area:photo;
+}
+
+.my-face{
+    position: relative;
+    display: flex;
+    max-width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    border:2px solid black;
+    border-radius: 50%;
+    margin-top:20px;
+    transition:1s ease;
+    &:hover{
+        border:3px double rgb(31, 106, 116);
+        filter: grayscale(80%) contrast(200%);
+        box-shadow: 0px 0px 10px 5px black;
+    }
+    @media(max-width:600px){
+        max-height:300px;
+        border:2px solid black;
+        border-radius: 50%;
+        margin-top:30px;
+    }    
+}
+
+.info{
+    grid-area:info;
+    .icons{
+        display: flex;
+        font-size: 120px;
+        width:fit-content;
+        margin-left:auto;
+        margin-right:auto;
+        i{
+            cursor: pointer;
+            margin:0 10px;
+            color:black;
+            transition:0.5s ease;
+            &:hover{
+                font-size:140px;
+            }
+        }
+    }
+
+    .mb-button{
+        display: flex;
+        border:none;
+        user-select: none;
+        cursor: pointer;
+        color:rgb(15, 67, 116);
+        font-size:3.5rem;
+        font-family: $main-font;
+        margin-left:auto;
+        margin-right:auto;
+        background-color:rgba(255, 255, 255, 0.356);
+        border-radius:20px;
+        transition:0.5s ease;
+        &:hover{
+            font-size:4rem;
+            font-weight:800;
+        }
+        &:active{
+            font-size:2.5rem;
+        }
+        .fa-address-card{
+            font-size:2.5rem;
+        }
+    }
+
+    .about-me{
+        width:fit-content;
+        display:flex;
+        flex-direction: column;
+        margin-left:auto;
+        margin-right:auto;
+        background-color:rgba(166, 167, 248, 0.288);
+        box-shadow:0px 7px 8px 2px black;
+        border-radius:5px;
+        padding:7px;
+        i{
+            font-size: 2rem;
+            .contact-info{
+                font-size: 1.2rem;
+                text-shadow:0px 0px 1px black;
+                .copy-btn{
+                    background-color: transparent;
+                    border: none;
+                    color: rgb(255, 0, 255);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    @media(max-width:600px){
+        .icons{
+            display:flex;
+            font-size: 60px;
+            i{
+                &:hover{
+                    font-size:80px;
+                }
+            }
+        }
+        .mb-button{
+            font-size: 3rem;
+            background-color:rgba(255, 255, 255, 0);
+            &:hover{
+                font-size:3.5rem;
+            }
+            .fa-address-card{
+                font-size:2rem;
+            }
+        }
+    }
+}
