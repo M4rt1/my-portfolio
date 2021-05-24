@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.882d68e8.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.5e93adfa.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.5e93adfa.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.cc25f95d.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.cc25f95d.js.map",
+    "static/js/2.086dfc14.chunk.js": "/my-portfolio/static/js/2.086dfc14.chunk.js",
+    "static/js/2.086dfc14.chunk.js.map": "/my-portfolio/static/js/2.086dfc14.chunk.js.map",
+    "static/js/3.21a9ddf6.chunk.js": "/my-portfolio/static/js/3.21a9ddf6.chunk.js",
+    "static/js/3.21a9ddf6.chunk.js.map": "/my-portfolio/static/js/3.21a9ddf6.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/main.882d68e8.chunk.css.map": "/my-portfolio/static/css/main.882d68e8.chunk.css.map",
+    "static/js/2.086dfc14.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.086dfc14.chunk.js.LICENSE.txt",
+    "static/media/Martin-Bulkowski-CV.d3e4594f.pdf": "/my-portfolio/static/media/Martin-Bulkowski-CV.d3e4594f.pdf",
+    "static/media/api-list.25a4b432.jpeg": "/my-portfolio/static/media/api-list.25a4b432.jpeg",
+    "static/media/calculator.33e89f62.jpeg": "/my-portfolio/static/media/calculator.33e89f62.jpeg",
+    "static/media/drum-machine.bc55ce43.jpeg": "/my-portfolio/static/media/drum-machine.bc55ce43.jpeg",
+    "static/media/WelcomeSection.css": "/my-portfolio/static/media/fb-bg.e1fa4185.png",
+    "static/media/markdown-previewer.cb40a82a.jpeg": "/my-portfolio/static/media/markdown-previewer.cb40a82a.jpeg",
+    "static/media/myFace.9cf01aa9.jpeg": "/my-portfolio/static/media/myFace.9cf01aa9.jpeg",
+    "static/media/pomodoro-timer.25707b09.jpeg": "/my-portfolio/static/media/pomodoro-timer.25707b09.jpeg",
+    "static/media/random-quotes.e8b2d5cb.jpeg": "/my-portfolio/static/media/random-quotes.e8b2d5cb.jpeg",
+    "static/media/rock-paper-scissors.a321ece7.jpeg": "/my-portfolio/static/media/rock-paper-scissors.a321ece7.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc25f95d.js",
+    "static/js/2.086dfc14.chunk.js",
+    "static/css/main.882d68e8.chunk.css",
+    "static/js/main.5e93adfa.chunk.js"
+  ]
+}
