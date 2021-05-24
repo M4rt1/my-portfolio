@@ -76,7 +76,7 @@ class WelcomeSection extends React.Component {
                 <div className='info'>
                     <p className='icons'>
                         <a href='https://github.com/M4rt1' data-toggle='tooltip' title='My Github' rel='noreferrer' target='_blank'><i class="fab fa-github" /></a>
-                        <a href='https://github.com/M4rt1' data-toggle='tooltip' title='My LinkedIn' rel='noreferrer' target='_blank'><i class="fab fa-linkedin" /></a>
+                        <a href='https://www.linkedin.com/in/martin-bulkowski-288889207/' data-toggle='tooltip' title='My LinkedIn' rel='noreferrer' target='_blank'><i class="fab fa-linkedin" /></a>
                         <a href={myCV} data-toggle='tooltip' title='My CV' rel='noreferrer' target='_blank'><i class="far fa-file"></i></a>
                     </p>
                     <button onClick={this.handleClick} className='mb-button'>
