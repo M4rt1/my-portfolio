@@ -3,7 +3,7 @@ import myFace from '../medias/myFace.jpeg';
 import React from 'react';
 import Projects from './Projects';
 import { Toast } from 'react-bootstrap';
-import myCV from '../medias/CV-Bulkowski_Martin.pdf';
+import myCV from '../medias/CV-Martin_Bulkowski.pdf';
 
 class WelcomeSection extends React.Component {
     constructor() {
