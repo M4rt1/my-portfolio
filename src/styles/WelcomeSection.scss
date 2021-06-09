@@ -22,6 +22,37 @@ $main-font:'Oswald', sans-serif;
 
 .photo{
     grid-area:photo;
+    @media (max-width:1400px) {
+        .photo-description{
+            display: none;
+        }
+    }
+    @media (min-width:1401px){
+    &:hover{
+        .photo-description{
+            display:flex;
+        }
+    }
+}
+    
+    .photo-description{
+        text-align:center;
+        position: relative;
+        padding-top: 30%;
+        padding-left:30px;
+        padding-right:30px;
+        max-width: 80%;
+        height:80%;
+        margin-left: auto;
+        margin-right: auto;
+        color:black;
+        user-select: none;
+        border-radius: 50%;
+        margin-top:-80%;
+        background-color: rgba(240, 248, 255, 0.644);
+        box-shadow: 0px 0px 40px 90px rgba(247, 244, 240, 0.712);
+        display:none;
+    }
 }
 
 .my-face{
@@ -38,6 +69,7 @@ $main-font:'Oswald', sans-serif;
         border:3px double rgb(31, 106, 116);
         filter: grayscale(80%) contrast(200%);
         box-shadow: 0px 0px 10px 5px black;
+        
     }
     @media(max-width:600px){
         max-height:300px;

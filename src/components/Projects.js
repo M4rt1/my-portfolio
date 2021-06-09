@@ -6,7 +6,7 @@ import calculator from '../medias/my-projects-imgs/calculator.jpeg';
 import pomodoroTimer from '../medias/my-projects-imgs/pomodoro-timer.jpeg';
 import randomQuotes from '../medias/my-projects-imgs/random-quotes.jpeg';
 import rockPaperScissors from '../medias/my-projects-imgs/rock-paper-scissors.jpeg';
-import apiList from '../medias/my-projects-imgs/api-list.jpeg';
+import yumone from '../medias/my-projects-imgs/yumone.jpeg';
 import markDown from '../medias/my-projects-imgs/markdown-previewer.jpeg';
 
 function ControlledCarousel() {
@@ -18,6 +18,22 @@ function ControlledCarousel() {
 
     return (
         <Carousel activeIndex={index} onSelect={handleSelect}>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src={yumone}
+                    alt="First slide"
+                />
+                <Carousel.Caption>
+                    <div className='caption-div'>
+                        <h3>Phone Site App (wip)</h3>
+                        <p>
+                            <a href='https://github.com/M4rt1/phone-site' rel='noreferrer' target='_blank'><i class="fas fa-code fa-spin"></i></a>
+                            <a href='https://m4rt1.github.io/Dragon-Ball-API-Calls/' rel='noreferrer' target='_blank'><i class="far fa-eye fa-spin"></i></a>
+                        </p>
+                    </div>
+                </Carousel.Caption>
+            </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
@@ -94,22 +110,6 @@ function ControlledCarousel() {
                         <p>
                             <a href='https://github.com/M4rt1/rock-paper-scissors' rel='noreferrer' target='_blank'><i class="fas fa-code fa-spin"></i></a>
                             <a href='https://m4rt1.github.io/rock-paper-scissors/' rel='noreferrer' target='_blank'><i class="far fa-eye fa-spin"></i></a>
-                        </p>
-                    </div>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src={apiList}
-                    alt="First slide"
-                />
-                <Carousel.Caption>
-                    <div className='caption-div'>
-                        <h3>List of DragonBall fighters</h3>
-                        <p>
-                            <a href='https://github.com/M4rt1/Dragon-Ball-API-Calls' rel='noreferrer' target='_blank'><i class="fas fa-code fa-spin"></i></a>
-                            <a href='https://m4rt1.github.io/Dragon-Ball-API-Calls/' rel='noreferrer' target='_blank'><i class="far fa-eye fa-spin"></i></a>
                         </p>
                     </div>
                 </Carousel.Caption>

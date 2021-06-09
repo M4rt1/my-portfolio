@@ -27,6 +27,43 @@
   grid-area: photo;
 }
 
+@media (max-width: 1400px) {
+  .photo .photo-description {
+    display: none;
+  }
+}
+
+@media (min-width: 1401px) {
+  .photo:hover .photo-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.photo .photo-description {
+  text-align: center;
+  position: relative;
+  padding-top: 30%;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 80%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border-radius: 50%;
+  margin-top: -80%;
+  background-color: rgba(240, 248, 255, 0.644);
+  -webkit-box-shadow: 0px 0px 40px 90px rgba(247, 244, 240, 0.712);
+          box-shadow: 0px 0px 40px 90px rgba(247, 244, 240, 0.712);
+  display: none;
+}
+
 .my-face {
   position: relative;
   display: -webkit-box;

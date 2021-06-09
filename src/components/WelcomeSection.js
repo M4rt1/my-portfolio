@@ -3,7 +3,7 @@ import myFace from '../medias/myFace.jpeg';
 import React from 'react';
 import Projects from './Projects';
 import { Toast } from 'react-bootstrap';
-import myCV from '../medias/CV-Martin_Bulkowski.pdf';
+import myCV from '../medias/MSBulkowski_CV_2k21.pdf';
 
 class WelcomeSection extends React.Component {
     constructor() {
@@ -72,6 +72,9 @@ class WelcomeSection extends React.Component {
 
                 <div className='photo'>
                     <img src={myFace} className='my-face' alt='My Face' />
+                    <p className='photo-description'>
+                        I am 23 years old and I am a part-time student of criminology. My aim is to get a job in the industry and gain real experience
+                    </p>
                 </div>
                 <div className='info'>
                     <p className='icons'>
