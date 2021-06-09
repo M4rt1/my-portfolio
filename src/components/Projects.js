@@ -29,7 +29,7 @@ function ControlledCarousel() {
                         <h3>Phone Site App (wip)</h3>
                         <p>
                             <a href='https://github.com/M4rt1/phone-site' rel='noreferrer' target='_blank'><i class="fas fa-code fa-spin"></i></a>
-                            <a href='https://m4rt1.github.io/Dragon-Ball-API-Calls/' rel='noreferrer' target='_blank'><i class="far fa-eye fa-spin"></i></a>
+                            <a href='https://m4rt1.github.io/phone-shop/' rel='noreferrer' target='_blank'><i class="far fa-eye fa-spin"></i></a>
                         </p>
                     </div>
                 </Carousel.Caption>
